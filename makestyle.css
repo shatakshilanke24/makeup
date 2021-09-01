@@ -1,0 +1,136 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.container{
+
+    background-image:url(back1.jpg);
+    width:1500px;
+    height:700px;
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+    .nav{
+            width: 100%;
+            margin: auto;
+             padding: 10px 0;
+            display: flex;
+            align-items: right;
+            text-align: right;
+            justify-content: space-between;
+            font-weight: 300px;
+            background: rgba(226, 150, 137, 0.233) ;
+            transition: all 0.3 ease;
+        }
+        .nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 50px;
+            
+        }
+        .nav ul li a{
+            font-size: 50px;
+            font-style: solid;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            text-align: center;
+            font-style: normal;
+             margin-top: 0%; 
+        }
+        
+    
+     .nav ul li a:hover{
+        color: blue;
+    }
+    
+
+     .name h4{
+        text-align: center;
+        color: rgb(48, 43, 43);
+        font-size: 40px;
+        font-weight: 300px;
+        font-style: italic;
+        font-family: cursive;
+        margin-top: 8%;
+        margin-right: 100PX;
+        text-decoration: none;
+        text-align:center;
+        margin-right: 890px;
+
+    }
+    .circle{
+        width: 500px;
+        height: 200px;
+        background:  rgb(226, 150, 137);
+        border-radius: 50%;
+        position: relative;
+        top: 50px;
+        margin-right: 100px;
+        text-align: center;
+        transform: translateX(10%);
+
+
+    }
+    .content{
+        position: absolute;
+        width: inherit;
+        height: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(80, 63, 63);
+        font-style: italic;
+        margin-right: 120px;
+        font-size: 10px;
+    }
+    .footer h2{
+        text-align: center;
+        color: rgb(48, 43, 43);
+        font-size: 40px;
+        font-weight: 300px;
+        font-style: italic;
+        font-family: cursive;
+        margin-top: 5%;
+        margin-right: 100PX;
+        text-decoration: none;
+        text-align:center;
+        margin-right: 890px;
+    }
+    .products a{
+        text-align: center;
+        color: black;
+        font-size: 40px;
+        font-weight: 300px;
+        font-style: italic;
+        font-family: cursive;
+        margin-top: 7%;
+        margin-right: 100PX;
+        text-decoration: none;
+        text-align:center;
+        margin-right: 890px;
+          padding: 100px;
+          top: 100px;
+
+
+    }
+    .buttons button{
+        color: black;
+        margin-top: 7%;
+        font-size: 100;
+      background:  rgba(224, 162, 151, 0.644);
+      font-size: 20px;
+      font-style: italic;
+      font-family: sans-serif;
+      width: 180px;
+      height: 50px;
+      margin-left: 80px;
+
+    }
+    
+
+
+    
